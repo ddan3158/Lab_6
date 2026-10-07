@@ -1,4 +1,5 @@
 #include "student.h"
+#include <array>
 
 namespace YooDaeun2693185{
     void printStudentArray(const Student a[], const int n){
@@ -28,7 +29,7 @@ int main(){
         arr.at(i)=a[i];//=arr[i]=a[i];
     }
     for (const auto& arri: arr){
-        arr.print();
+        arri.print();
     }
 
     return 0;
